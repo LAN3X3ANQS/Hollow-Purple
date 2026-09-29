@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Purple — Hand Tracking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Hollow Purple</h1>
+    <p id="status">Loading MediaPipe...</p>
+    <p class="gesture-help">Extend index and middle. Press your thumb to charge, then lift your thumb to fire.</p>
+
+    <div class="camera-container">
+        <video id="webcam" autoplay playsinline></video>
+        <canvas id="output"></canvas>
+    </div>
+
+    <button id="startButton">Start Camera</button>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
